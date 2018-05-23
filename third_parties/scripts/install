@@ -1,0 +1,8 @@
+cd ..
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX="/usr/laserCollect" ..
+make
+make install
+
+cp ../third_parties/VelodyneHDL/16db.xml /usr/laserCollect/bin

@@ -1,0 +1,2 @@
+pkill collectLaser
+pkill python
