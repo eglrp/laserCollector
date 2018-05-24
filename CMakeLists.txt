@@ -15,3 +15,5 @@ add_subdirectory(common)
 ##
 
 add_subdirectory(collectLaser)
+include_directories(collectInertial)
+add_subdirectory(collectInertial)

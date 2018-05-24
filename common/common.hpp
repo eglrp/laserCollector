@@ -16,7 +16,7 @@ namespace common{
         std::string imageFolderPath;
         std::string cameraTimePath;
         std::string inertialPath;
-        std::string IMUport; //default is /dev/ttyUSB1
+        std::string IMUport; //default is /dev/ttyUSB0
         std::string IMU_triggerTimePath;
         std::string laser_dataPath;
         std::string ArduPort; //default is /dev/ttyUSB0
