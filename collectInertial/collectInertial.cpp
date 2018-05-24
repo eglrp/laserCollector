@@ -30,8 +30,9 @@ int main(int argc, char** argv)
     while (1){
         QByteArray b_str;
         saver.readData(b_str);
-
+        //std::cout<<"data" << b_str.size() <<"\n";
         ofs.write(b_str.data(),b_str.size());
+        ofs.flush();
     }
 
 //    IMU::InertialDivice device(config.IMUport);
